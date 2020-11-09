@@ -3,5 +3,6 @@ def my_each(words)
   while i < words.size
   yield words[i]
   i += 1
+end
   words
 end
